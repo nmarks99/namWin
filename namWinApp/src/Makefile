@@ -206,10 +206,10 @@ ifdef DELAYGEN
   $(PROD_NAME)_LIBS := delaygen $($(PROD_NAME)_LIBS)
 endif
 
-ifdef VAC
-  $(DBD_NAME)_DBD += vacSupport.dbd
-  $(PROD_NAME)_LIBS := vac $($(PROD_NAME)_LIBS)
-endif
+# ifdef VAC
+  # $(DBD_NAME)_DBD += vacSupport.dbd
+  # $(PROD_NAME)_LIBS := vac $($(PROD_NAME)_LIBS)
+# endif
 
 #ifdef FLY
 #  $(DBD_NAME)_DBD += flySupport.dbd
